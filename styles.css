@@ -1,0 +1,51 @@
+.nav-pills .nav-link {
+  color: #b0b4be !important;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #ced1d6 !important;
+  color: #404e6c !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #b0b4be !important;
+  color: #404e6c !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #b0b4be !important;
+  color: #404e6c !important;
+}
+
+.accordion-button {
+  background-color: #ffffff !important;
+  color: #404e6c !important;
+  text-decoration: underline;
+}
+
+.accordion-button:hover {
+ background-color: #d1d3da !important;
+  color: #404e6c !important;
+}
+
+ .accordion-visibility{
+    display: block !important;
+  } 
+
+   .tabs-visibility{
+    display: none !important;
+  } 
+
+@media (min-width: 426px) {
+  .tabs-visibility{
+    display: block !important;
+  } 
+}
+
+@media (min-width: 426px) {
+  .accordion-visibility{
+    display: none !important;
+  } 
+}

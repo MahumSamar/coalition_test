@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coalition Technologies</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="">
+      <!--   section 1-->
+      <section
+        class=""
+        style="
+          background-image: url('img1.png');
+          height: 30rem;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="w-75 mx-auto">
+          <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <a href="#">
+                <img class="me-4" src="logo.png" alt="logo" height="40rem" />
+              </a>
+              <div class="d-flex">
+                <a href="#history">
+                  <p class="pe-4 text-white fst-italic">
+                    <u> 01. HISTORY </u>
+                  </p>
+                </a>
+                <a href="#team">
+                  <p class="pe-4 text-white fst-italic">
+                    <u> 02. TEAM </u>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div class="d-flex flex-column align-items-center">
+            <p class="display-4 text-secondary fw-bolder">LOSANGELES</p>
+            <p class="display-4 fw-bolder" style="color: #404e6c">MOUNTAINS</p>
+          </div>
+        </div>
+      </section>
+
+      <!--    section 2-->
+      <a name="history"></a>
+      <section class="">
+        <div class="w-75 mx-auto">
+          <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <div class="d-flex justify-content-start align-items-center">
+                <img class="me-4" src="logo.png" alt="logo" height="40rem" />
+                <a class="navbar-brand" href="#">
+                  <span class="fw-bold text-secondary"> LOSANGELES </span>
+                  <br />
+                  <span class="fw-bold" style="color: #404e6c">
+                    MOUNTAINS
+                  </span>
+                </a>
+              </div>
+              <div class="d-flex">
+                <a href="#history">
+                  <p class="pe-4 fst-italic" style="color: #404e6c">
+                    <u> 01. HISTORY </u>
+                  </p>
+                </a>
+                <a href="#team">
+                  <p class="pe-4 fst-italic" style="color: #404e6c">
+                    <u> 02. TEAM </u>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="d-flex flex-column justify-content-between"
+          style="
+            background-image: url('img2.png');
+            height: 50rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+          <div class="w-75 mx-auto">
+            <div class="d-flex mt-5 align-items-center">
+              <h1
+                class="fw-bolder"
+                style="color: #404e6c; opacity: 0.75; font-size: 8rem"
+              >
+                01.
+              </h1>
+              <h2
+                class="display-6 fw-bolder"
+                style="color: #404e6c; margin-left: -2rem"
+              >
+                HISTORY
+              </h2>
+            </div>
+            <p class="ms-5" style="font-size: 0.75rem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in
+              ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus
+              est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt
+              quam. Cras scelerisque id quam sed dignissim Pellentesque urna
+              nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus
+              suscipit dignissim tortor nec congue.
+            </p>
+          </div>
+          <!-- carosel -->
+          <div
+            class="h-25 py-4"
+            style="background-color: rgb(64, 78, 108, 0.7)"
+          >
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide h-100 w-75 mx-auto"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active">
+                  <img src="img1.png" class="d-block w-100" alt="image 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img2.png" class="d-block w-100" alt="image 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="img3.png" class="d-block w-100" alt="image 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--    section 3-->
+      <a name="team"></a>
+      <section>
+        <div class="w-75 mx-auto">
+          <div class="d-flex align-items-end">
+            <div class="d-flex align-items-center me-4">
+              <h1
+                class="fw-bolder"
+                style="color: #404e6c; opacity: 0.75; font-size: 6rem"
+              >
+                02.
+              </h1>
+              <h2
+                class="fw-bolder"
+                style="color: #404e6c; margin-left: -1.5rem; font-size: 2rem"
+              >
+                CLIMB
+              </h2>
+            </div>
+            <p class="my-auto py-4" style="font-size: 0.75rem">
+              Cras scelerisque id quam sed dignissim Pellentesque urna nunc,
+              gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
+              dignissim tortor nec congue.
+            </p>
+          </div>
+        </div>
+        <div
+          class="tabs-visibility"
+          style="
+            background-image: url('img3.png');
+            height: 50rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+          <div style="background-color: #404e6c">
+            <div class="w-75 mx-auto">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    MOUNTAIN 1
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    MOUNTAIN 2
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-75 mx-auto">
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-home"
+                role="tabpanel"
+                aria-labelledby="pills-home-tab"
+              >
+                <div
+                  class="w-50 p-3 px-4 mt-5"
+                  style="background-color: #eceef1"
+                >
+                  <table class="table table-borderless">
+                    <h1 class="fw-bolder" style="color: #404e6c">SCHEDULE</h1>
+                    <tbody>
+                      <tr>
+                        <td>25 Nov 2016</td>
+                        <td>Vestibulum viverra</td>
+                      </tr>
+                      <tr>
+                        <td>28 Nov 2016</td>
+                        <td>Vestibulum viverra</td>
+                      </tr>
+                      <tr>
+                        <td>18 Dec 2016</td>
+                        <td>Vestibulum viverra</td>
+                      </tr>
+                      <tr>
+                        <td>7 Jan 2017</td>
+                        <td>Vestibulum viverra</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-profile"
+                role="tabpanel"
+                aria-labelledby="pills-profile-tab"
+              >
+                <div
+                  class="w-50 p-3 px-4 mt-5"
+                  style="background-color: #eceef1"
+                >
+                  <table class="table table-borderless">
+                    <h1 class="fw-bolder" style="color: #404e6c">SCHEDULE</h1>
+                    <tbody>
+                      <tr>
+                        <td>25 Nov 2016</td>
+                        <td>Vestibulum mountain</td>
+                      </tr>
+                      <tr>
+                        <td>28 Nov 2016</td>
+                        <td>Vestibulum mountain</td>
+                      </tr>
+                      <tr>
+                        <td>18 Dec 2016</td>
+                        <td>Vestibulum mountain</td>
+                      </tr>
+                      <tr>
+                        <td>7 Jan 2017</td>
+                        <td>Vestibulum mountain</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- acordian on mobile -->
+        <div
+          class="accordion-visibility"
+          style="
+            background-image: url('img3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+          <div class="w-75 py-4 mx-auto">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    MOUNTAIN 1
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="p-3 px-4 mx-auto"
+                      style="background-color: #eceef1"
+                    >
+                      <table class="table table-borderless">
+                        <h1 class="fw-bolder" style="color: #404e6c">
+                          SCHEDULE
+                        </h1>
+                        <tbody>
+                          <tr>
+                            <td>25 Nov 2016</td>
+                            <td>Vestibulum viverra</td>
+                          </tr>
+                          <tr>
+                            <td>28 Nov 2016</td>
+                            <td>Vestibulum viverra</td>
+                          </tr>
+                          <tr>
+                            <td>18 Dec 2016</td>
+                            <td>Vestibulum viverra</td>
+                          </tr>
+                          <tr>
+                            <td>7 Jan 2017</td>
+                            <td>Vestibulum viverra</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    MOUNTAIN 2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="p-3 px-4 mx-auto"
+                      style="background-color: #eceef1"
+                    >
+                      <table class="table table-borderless">
+                        <h1 class="fw-bolder" style="color: #404e6c">
+                          SCHEDULE
+                        </h1>
+                        <tbody>
+                          <tr>
+                            <td>25 Nov 2016</td>
+                            <td>Vestibulum mountain</td>
+                          </tr>
+                          <tr>
+                            <td>28 Nov 2016</td>
+                            <td>Vestibulum mountain</td>
+                          </tr>
+                          <tr>
+                            <td>18 Dec 2016</td>
+                            <td>Vestibulum mountain</td>
+                          </tr>
+                          <tr>
+                            <td>7 Jan 2017</td>
+                            <td>Vestibulum mountain</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="" style="background-color: #404e6c">
+      <div class="w-75 mx-auto" style="color: #61759e">
+        <nav class="navbar navbar-light bg-blue-800">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-start align-items-center">
+              <img class="me-4" src="logo.png" alt="logo" height="40rem" />
+              <a class="navbar-brand" href="#">
+                <span class="fw-bold" style="color: #61759e"> LOSANGELES </span>
+                <br />
+                <span class="fw-bold" style="color: #61759e"> MOUNTAINS </span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center">
+              <p class="fst-italic">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
